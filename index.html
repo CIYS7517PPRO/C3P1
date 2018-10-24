@@ -17,7 +17,7 @@
 
 <script>
   document.getElementById("sumButton").addEventListener("click", () => {
-    var sum = parseInt(document.getElementById("firstNumber")) + parseInt(document.getElementById("secondNumber"));
+    var sum = parseInt(document.getElementById("firstNumber").value) + parseInt(document.getElementById("secondNumber").value);
     if (isNaN(sum)) {
       alert("Please enter a number in each field");
     } else {
