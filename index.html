@@ -15,5 +15,10 @@
 
 	<script>
     var sum = parseInt(document.getElementById("firstNumber")) + parseInt(document.getElementById("secondNumber"));
+    if (isNaN(sum)) {
+      alert("Please enter a number in each field");
+    } else {
+      document.getElementById("sum").innerHTMl = sum;
+    }
   </script>
 </html>
